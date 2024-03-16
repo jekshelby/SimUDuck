@@ -2,20 +2,17 @@ package SimUDuckV4;
 
 public class DecoyDuck extends Duck {
     @Override
-    public String quack() {
-        return "";
+    public void quack() {
+        System.out.println("Tidak Kwek");
     }
 
     @Override
-    public String fly() {
-        return "Tidak Bisa Terbang";
+    public void fly() {
+        System.out.println("Tidak Bisa terbang");
     }
 
     @Override
     public void display() {
         System.out.println("Decoy Duck");
-        System.out.println(quack());
-        System.out.println(swim());
-        System.out.println(fly());
     }
 }
