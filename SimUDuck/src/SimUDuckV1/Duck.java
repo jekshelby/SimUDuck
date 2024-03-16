@@ -1,12 +1,12 @@
 package SimUDuckV1;
 
 public abstract class Duck {
-    public String quack() {
-        return "Kwek";
+    public void quack() {
+        System.out.println("Kwek!");
     }
 
-    public String swim() {
-        return "berenang";
+    public void swim() {
+        System.out.println("Berenang");
     }
 
     public abstract void display();
