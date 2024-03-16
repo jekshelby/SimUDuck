@@ -1,5 +1,5 @@
 package SimUDuckv5;
 
-public interface Flayable {
+public interface Flyable {
     public void fly();
 }

@@ -1,6 +1,6 @@
 package SimUDuckv5;
 
-public class MallardDuck extends Duck implements Quackable, Flayable {
+public class MallardDuck extends Duck implements Quackable, Flyable {
     @Override
     public void quack() {
         System.out.println("Kwek!");
