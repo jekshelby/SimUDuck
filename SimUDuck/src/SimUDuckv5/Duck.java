@@ -1,5 +1,9 @@
 package SimUDuckv5;
 
-public class Duck {
-    
+public abstract class Duck {
+    public void swim() {
+        System.out.println("Berenang");
+    }
+
+    public abstract void display();
 }

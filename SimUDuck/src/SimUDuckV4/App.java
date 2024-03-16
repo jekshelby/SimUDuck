@@ -3,7 +3,6 @@ package SimUDuckV4;
 public class App {
     public static void main(String[] args) {
         MalardDuck malard = new MalardDuck();
-
         System.out.println("================");
         malard.display();
         malard.quack();
