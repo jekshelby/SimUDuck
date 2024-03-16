@@ -1,4 +1,4 @@
-package SimUDuckv5;
+package SimUDuckV5;
 
 public class MallardDuck extends Duck implements Quackable, Flyable {
     @Override

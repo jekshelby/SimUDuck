@@ -1,4 +1,4 @@
-package SimUDuckv5;
+package SimUDuckV5;
 
 public interface Quackable {
     public void quack();

@@ -44,5 +44,7 @@ public class App {
         modal.swim();
         modal.SetFlyBehvior(new Flywithrocket());
         modal.PerformFly();
+
+        System.out.println("\n================");
     }
 }

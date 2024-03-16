@@ -1,4 +1,4 @@
-package SimUDuckv5;
+package SimUDuckV5;
 
 public class App {
     public static void main(String[] args) {
