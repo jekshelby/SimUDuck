@@ -3,7 +3,7 @@ package SimUDuckV6;
 public class App {
     public static void main(String[] args) {
         System.out.println("================");
-        MallardDuck mallard = new MallardDuck();
+        Duck mallard = new MallardDuck();
         mallard.display();
         mallard.swim();
         mallard.SetQuackBehavior(new Quack());
@@ -12,7 +12,7 @@ public class App {
         mallard.PerformFly();
 
         System.out.println("\n================");
-        RedheadDuck redhead = new RedheadDuck();
+        Duck redhead = new RedheadDuck();
         redhead.display();
         redhead.swim();
         redhead.SetQuackBehavior(new Quack());
@@ -21,7 +21,7 @@ public class App {
         redhead.PerformFly();
 
         System.out.println("\n================");
-        RubberDuck rubber = new RubberDuck();
+        Duck rubber = new RubberDuck();
         rubber.display();
         rubber.swim();
         rubber.SetQuackBehavior(new Squeak());
@@ -30,7 +30,7 @@ public class App {
         rubber.PerformFly();
 
         System.out.println("\n================");
-        DecoyDuck decoy = new DecoyDuck();
+        Duck decoy = new DecoyDuck();
         decoy.display();
         decoy.swim();
         decoy.SetQuackBehavior(new QuackMute());
@@ -39,7 +39,7 @@ public class App {
         decoy.PerformFly();
 
         System.out.println("\n================");
-        ModelDuck modal = new ModelDuck();
+        Duck modal = new ModelDuck();
         modal.display();
         modal.swim();
         modal.SetFlyBehvior(new Flywithrocket());
